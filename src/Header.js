@@ -1,7 +1,7 @@
-function Header() {
+function Header({ length }) {
   return (
-    <header style={{ borderBottom: "1px solid black" }}>
-      welcome to the Resturant
+    <header className="header">
+      <h1>Fast React Pizza Co. {length}</h1>
     </header>
   );
 }
